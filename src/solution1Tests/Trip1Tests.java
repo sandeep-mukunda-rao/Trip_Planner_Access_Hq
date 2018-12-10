@@ -23,6 +23,8 @@ import jxl.read.biff.BiffException;
 public class Trip1Tests {
 public WebDriver driver;
 
+
+//This is the test to run solution 2
 @Test(dataProvider="testdata")
 
 public void Trip1Test(String From,String To) throws Exception {
@@ -84,6 +86,7 @@ public void CloseBrowse() {
 
 	}
 
+/*function to capture screenshot*/
 public  void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception{
 
     //Convert web driver object to TakeScreenshot

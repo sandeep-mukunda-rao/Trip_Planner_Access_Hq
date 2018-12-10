@@ -43,6 +43,7 @@ public class Trip2Tests {
 	}
 	
 	
+	//This is the test to run solution 2
   @Test
   public void TripPlan1() throws InterruptedException {
 	  
