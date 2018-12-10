@@ -2,7 +2,7 @@
 <suite name = "TripPlan">
 <test name = "TripPlanner1">
 <classes>
- <class name="com.solution1.Trip1Tests.Trip1Tests"/>
+ <class name="solution1Tests.Trip1Tests"/>
 </classes>
 </test>
 </suite>

@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11853" started-at="2018-12-10T08:18:20Z" finished-at="2018-12-10T08:18:32Z">
+  <suite name="Default suite" duration-ms="56491" started-at="2018-12-10T08:37:17Z" finished-at="2018-12-10T08:38:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11853" started-at="2018-12-10T08:18:20Z" finished-at="2018-12-10T08:18:32Z">
-      <class name="solution2tests.Trip2Tests">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:solution2tests.Trip2Tests@12f41634]" name="invokeBrowser" is-config="true" duration-ms="4808" started-at="2018-12-10T08:18:20Z" finished-at="2018-12-10T08:18:25Z">
+    <test name="Default test" duration-ms="56491" started-at="2018-12-10T08:37:17Z" finished-at="2018-12-10T08:38:13Z">
+      <class name="solution1Tests.Trip1Tests">
+        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="19840" started-at="2018-12-10T08:37:17Z" data-provider="testdata" finished-at="2018-12-10T08:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[North Sydney Station]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Town Hall Station]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="TripPlan1()[pri:0, instance:solution2tests.Trip2Tests@12f41634]" name="TripPlan1" duration-ms="6673" started-at="2018-12-10T08:18:25Z" finished-at="2018-12-10T08:18:31Z">
+        </test-method> <!-- Trip1Test -->
+        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="17751" started-at="2018-12-10T08:37:37Z" data-provider="testdata" finished-at="2018-12-10T08:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TripPlan1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:solution2tests.Trip2Tests@12f41634]" name="closeBrowser" is-config="true" duration-ms="325" started-at="2018-12-10T08:18:31Z" finished-at="2018-12-10T08:18:32Z">
+        </test-method> <!-- Trip1Test -->
+        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="18391" started-at="2018-12-10T08:37:54Z" data-provider="testdata" finished-at="2018-12-10T08:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdfsdfsdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfsdf]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- solution2tests.Trip2Tests -->
+        </test-method> <!-- Trip1Test -->
+        <test-method status="PASS" signature="CloseBrowse()[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="CloseBrowse" is-config="true" duration-ms="242" started-at="2018-12-10T08:38:13Z" finished-at="2018-12-10T08:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowse -->
+      </class> <!-- solution1Tests.Trip1Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
