@@ -24,7 +24,7 @@ public class Trip1Tests {
 public WebDriver driver;
 
 
-//This is the test to run solution 2
+//This is the test to run solution 1
 @Test(dataProvider="testdata")
 
 public void Trip1Test(String From,String To) throws Exception {
