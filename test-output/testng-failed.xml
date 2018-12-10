@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.solution1.Trip1Tests.Trip1Tests">
+      <class name="solution1Tests.Trip1Tests">
         <methods>
+          <include name="Trip1Test" invocation-numbers="2"/>
           <include name="CloseBrowse"/>
-          <include name="Trip1Test" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.solution1.Trip1Tests.Trip1Tests -->
+      </class> <!-- solution1Tests.Trip1Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

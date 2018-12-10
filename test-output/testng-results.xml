@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56491" started-at="2018-12-10T08:37:17Z" finished-at="2018-12-10T08:38:13Z">
+  <suite name="Default suite" duration-ms="57423" started-at="2018-12-10T09:51:06Z" finished-at="2018-12-10T09:52:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56491" started-at="2018-12-10T08:37:17Z" finished-at="2018-12-10T08:38:13Z">
+    <test name="Default test" duration-ms="57423" started-at="2018-12-10T09:51:06Z" finished-at="2018-12-10T09:52:03Z">
       <class name="solution1Tests.Trip1Tests">
-        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="19840" started-at="2018-12-10T08:37:17Z" data-provider="testdata" finished-at="2018-12-10T08:37:37Z">
+        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="34354" started-at="2018-12-10T09:51:06Z" data-provider="testdata" finished-at="2018-12-10T09:51:40Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Trip1Test -->
-        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="17751" started-at="2018-12-10T08:37:37Z" data-provider="testdata" finished-at="2018-12-10T08:37:54Z">
+        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="19386" started-at="2018-12-10T09:51:40Z" data-provider="testdata" finished-at="2018-12-10T09:52:00Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Trip1Test -->
-        <test-method status="PASS" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="18391" started-at="2018-12-10T08:37:54Z" data-provider="testdata" finished-at="2018-12-10T08:38:13Z">
+        <test-method status="FAIL" signature="Trip1Test(java.lang.String, java.lang.String)[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="Trip1Test" duration-ms="3354" started-at="2018-12-10T09:52:00Z" data-provider="testdata" finished-at="2018-12-10T09:52:03Z">
           <params>
             <param index="0">
               <value>
@@ -52,10 +52,81 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"search-input-From"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: '192-168-1-117.tpgi.com.au', ip: 'fe80:0:0:0:82f:e74c:e01:351%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/bb/xwtjgwg15y1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59079}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: e98776d64973b1dc5a50f7de4a65bda2
+*** Element info: {Using=name, value=search-input-From}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"search-input-From"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: '192-168-1-117.tpgi.com.au', ip: 'fe80:0:0:0:82f:e74c:e01:351%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/bb/xwtjgwg15y1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59079}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: e98776d64973b1dc5a50f7de4a65bda2
+*** Element info: {Using=name, value=search-input-From}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at solution1Tests.Trip1Tests.Trip1Test(Trip1Tests.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Trip1Test -->
-        <test-method status="PASS" signature="CloseBrowse()[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="CloseBrowse" is-config="true" duration-ms="242" started-at="2018-12-10T08:38:13Z" finished-at="2018-12-10T08:38:13Z">
+        <test-method status="PASS" signature="CloseBrowse()[pri:0, instance:solution1Tests.Trip1Tests@a38d7a3]" name="CloseBrowse" is-config="true" duration-ms="115" started-at="2018-12-10T09:52:03Z" finished-at="2018-12-10T09:52:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowse -->
